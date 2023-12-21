@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e110bc7-9d8d-4329-aff9-8da02c2a7af0" name="Changes" comment="">
+    <list default="true" id="7e110bc7-9d8d-4329-aff9-8da02c2a7af0" name="Changes" comment="add testIssuesSearch">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/egorovma/StepsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/egorovma/WebSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/egorovma/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/egorovma/SelenideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,40 +63,65 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;egorov-ma&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="51a95abe-bf60-44af-9c65-430dee205eef" />
+        <option name="url" value="https://github.com/egorov-ma/allure-example-tests.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ZoRTwIs0LtrKj1OJlmfYoE9g5Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.SelenideTest.testIssuesSearch.executor": "Run",
-    "Gradle.allure-example-tests [allureReport].executor": "Run",
-    "Gradle.allure-example-tests [allureServe].executor": "Run",
-    "Gradle.allure-example-tests [clean].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "build.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.SelenideTest.testIssuesSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StepsTest.testAnnotatedStep.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StepsTest.testLambdaStep.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.allure-example-tests [allureReport].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.allure-example-tests [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.allure-example-tests [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/megorov/IdeaProjects/allure-example-tests/.gradle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.egorovma" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="gradle clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.allure-example-tests [allureServe]">
+  <component name="RunManager" selected="Gradle.StepsTest.testAnnotatedStep">
     <configuration name="SelenideTest.testIssuesSearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -118,26 +146,52 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="allure-example-tests [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StepsTest.testAnnotatedStep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureReport" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.egorovma.StepsTest.testAnnotatedStep&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="StepsTest.testLambdaStep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.egorovma.StepsTest.testLambdaStep&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="allure-example-tests [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -186,10 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.allure-example-tests [allureServe]" />
-        <item itemvalue="Gradle.allure-example-tests [allureReport]" />
-        <item itemvalue="Gradle.SelenideTest.testIssuesSearch" />
+        <item itemvalue="Gradle.StepsTest.testAnnotatedStep" />
         <item itemvalue="Gradle.allure-example-tests [clean]" />
+        <item itemvalue="Gradle.allure-example-tests [allureServe]" />
+        <item itemvalue="Gradle.StepsTest.testLambdaStep" />
+        <item itemvalue="Gradle.SelenideTest.testIssuesSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +255,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-19.0.2-corretto-19.0.2-3183f394aec4-f0552fc0" />
+        <option value="jdk-21.0.1-temurin-21.0.1-249ae16d76d6-52922dbd" />
       </set>
     </attachedChunks>
   </component>
@@ -211,8 +267,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703086457969</updated>
-      <workItem from="1703086459008" duration="8212000" />
+      <workItem from="1703086459008" duration="8821000" />
+      <workItem from="1703149977852" duration="6995000" />
+      <workItem from="1703165359298" duration="495000" />
+      <workItem from="1703165878767" duration="282000" />
     </task>
+    <task id="LOCAL-00001" summary="add testIssuesSearch">
+      <option name="closed" value="true" />
+      <created>1703149262437</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703149262437</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,5 +296,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add testIssuesSearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="add testIssuesSearch" />
   </component>
 </project>
