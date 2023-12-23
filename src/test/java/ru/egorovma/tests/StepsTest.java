@@ -11,15 +11,13 @@ import ru.egorovma.steps.GitHubIssuesLinksSteps;
 
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static io.qameta.allure.Allure.step;
+import static ru.egorovma.data.RepositoriesData.*;
 
 public class StepsTest extends BaseTest {
 
     GitHubMainPage mainPage = new GitHubMainPage();
     GitHubFilterPage filterPage = new GitHubFilterPage();
     GitHubRepositoriesPage repositoriesPage = new GitHubRepositoriesPage();
-
-    private static final String REPOSITORY = "eroshenkoam/allure-example";
-    private static final String FIND_ISSUE = "allure";
 
     @Test
     @DisplayName("Check issue with listener step")
