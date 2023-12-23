@@ -1,6 +1,7 @@
-package ru.egorovma;
+package ru.egorovma.tests;
 
 import io.qameta.allure.*;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -13,10 +14,12 @@ public class LabelsTest {
     @Severity(SeverityLevel.BLOCKER)
     @Link(value = "Testing", url = "https://testing.github.com")
     @DisplayName("Создание Issue для авторизованного пользователя")
+    @Disabled("example")
     public void testStaticLabels() {
     }
 
     @Test
+    @Disabled("example")
     public void testDynamicLabels() {
         Allure.getLifecycle().updateTestCase(
                 t -> t.setName("Создание Issue для авторизованного пользователя")
